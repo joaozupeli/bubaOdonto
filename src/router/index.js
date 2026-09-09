@@ -22,6 +22,13 @@ const router = createRouter({
       meta: { title: 'Página não encontrada' },
     },
   ],
+  /**
+   * O App.vue cuida da rolagem, não o router.
+   *
+   * Dois motivos: a transição entre páginas é `mode="out-in"`, então quando o
+   * router rolaria o alvo do #hash ainda nem existe no DOM; e o scroll suave
+   * é controlado pelo Lenis, que precisa ser chamado diretamente.
+   */
   scrollBehavior() {
     return false
   },
