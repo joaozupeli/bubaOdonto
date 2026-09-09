@@ -5,3 +5,6 @@ Demo personalizado para **Buba Odontologia (Dra. Jessyca Buba)** — Cristo Rei,
 - Vue 3 + Vite
 - Tema: clinical light + sage `#7eb8a2`
 - Vercel: `buba-odonto`
+- WhatsApp: `(41) 99758-0067`
+
+Tree complete — redeploy trigger.
